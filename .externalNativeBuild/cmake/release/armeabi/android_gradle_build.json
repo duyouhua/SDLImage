@@ -1,0 +1,69 @@
+
+{
+	"buildFiles" : [ "D:/AndroidProj/SDLImage/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"F:\\ProgramFile\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\AndroidProj\\SDLImage\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"SDL2-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "SDL2",
+			"buildType" : "release",
+			"output" : "../../../../src/main/jniLibs/armeabi/libSDL2.so",
+			"toolchain" : "3025965813"
+		},
+		"SDL2_image-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "SDL2_image",
+			"buildType" : "release",
+			"output" : "../../../../src/main/jniLibs/armeabi/libSDL2_image.so",
+			"toolchain" : "3025965813"
+		},
+		"SDL2_mixer-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "SDL2_mixer",
+			"buildType" : "release",
+			"output" : "../../../../src/main/jniLibs/armeabi/libSDL2_mixer.so",
+			"toolchain" : "3025965813"
+		},
+		"SDL2main-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "SDL2main",
+			"buildCommand" : "F:\\ProgramFile\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\AndroidProj\\SDLImage\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target SDL2main",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/ProgramFile/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/ProgramFile/Android/sdk/ndk-bundle/sysroot -DSDL2main_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\src -I..\\..\\..\\..\\src\\main\\jniLibs\\include -I..\\..\\..\\..\\src\\main\\cpp  -isystem F:/ProgramFile/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=9 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/AndroidProj/SDLImage/app/src/main/jniLibs/src/main/android/SDL_android_main.c",
+					"workingDirectory" : "D:/AndroidProj/SDLImage/app/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=F:/ProgramFile/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=F:/ProgramFile/Android/sdk/ndk-bundle/sysroot  -DSDL2main_EXPORTS -I..\\..\\..\\..\\src\\main\\jniLibs\\src -I..\\..\\..\\..\\src\\main\\jniLibs\\include -I..\\..\\..\\..\\src\\main\\cpp -isystem F:\\ProgramFile\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem F:\\ProgramFile\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem F:\\ProgramFile\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem F:/ProgramFile/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=9 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/AndroidProj/SDLImage/app/src/main/cpp/SDL_Test5.cpp",
+					"workingDirectory" : "D:/AndroidProj/SDLImage/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "D:/AndroidProj/SDLImage/app/build/intermediates/cmake/release/obj/armeabi/libSDL2main.so",
+			"toolchain" : "3025965813"
+		}
+	},
+	"toolchains" : 
+	{
+		"3025965813" : 
+		{
+			"cCompilerExecutable" : "F:/ProgramFile/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "F:/ProgramFile/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

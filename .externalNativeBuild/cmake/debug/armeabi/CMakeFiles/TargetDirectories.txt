@@ -1,0 +1,3 @@
+D:/AndroidProj/SDLImage/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/rebuild_cache.dir
+D:/AndroidProj/SDLImage/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/SDL2main.dir
+D:/AndroidProj/SDLImage/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/edit_cache.dir
