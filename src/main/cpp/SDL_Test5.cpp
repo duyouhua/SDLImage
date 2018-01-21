@@ -29,10 +29,10 @@ void moveSpot(Spot* spot){
     } else {
         spot->x=spot->x-spot->speed;
     }
-    if (spot->x>600||spot->x<0){
+    if (spot->x>1080||spot->x<0){
         spot->x=0;
     }
-    if (spot->y>800)
+    if (spot->y>1920)
     {
         spot->y=0;
     }
@@ -61,13 +61,13 @@ int main(int argc,char* argv[]){
     SDL_Rect rectwindow;
     rectwindow.x=0;
     rectwindow.y=0;
-    rectwindow.w=600;
-    rectwindow.h=800;
-    Spot spot[50];
+    rectwindow.w=1080;
+    rectwindow.h=1920;
+    Spot spot[150];
     int i;
-    for(i=0;i<50;i++){
-        spot[i].x=rand()%600;
-        spot[i].y=rand()%800;
+    for(i=0;i<150;i++){
+        spot[i].x=rand()%1080;
+        spot[i].y=rand()%1920;
         spot[i].r=rand()%4+1;
         spot[i].speed=rand()%2+1;
         spot[i].alpha=rand()%255;
@@ -84,7 +84,7 @@ int main(int argc,char* argv[]){
             }
         }
         SDL_RenderCopy(rend,black,NULL,&rectwindow);
-        for (i = 0; i < 50; ++i){
+        for (i = 0; i < 150; ++i){
             drawSpot(&spot[i],rend,cat);
             moveSpot(&spot[i]);
         }
